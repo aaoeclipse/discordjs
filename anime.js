@@ -59,6 +59,9 @@ client.on('voiceStateUpdate', async (oldMember, newMember) => {
       if (username === 'IamDeJuan') {
         player(oldMember, 'vizca.mp3');
       }
+      if (username === 'GonoFam') {
+        player(oldMember, 'patrcik.mp3');
+      }
       console.log('User joined!');
     } else if (newVoice == null) {
       console.log('User left!');
